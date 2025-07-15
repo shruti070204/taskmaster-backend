@@ -160,8 +160,6 @@ LOGGING = { #send logs to console. for debugging
     },
 }
 #cors configuration
-CORS_ALLOW_ALL_ORIGINS=True # allows all domain
-
 CORS_ALLOWED_ORIGINS = [ #retrict to specific ones
     "http://localhost:3000",
     "http://127.0.0.1:3000",
