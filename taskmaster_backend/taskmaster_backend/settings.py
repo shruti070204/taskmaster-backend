@@ -165,8 +165,10 @@ CORS_ALLOW_ALL_ORIGINS=True # allows all domain
 CORS_ALLOWED_ORIGINS = [ #retrict to specific ones
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    'https://taskmaster-frontend-iota.vercel.app',
+    "https://taskmaster-frontend-iota.vercel.app",
 ]
+
+CORS_ALLOW_CREDENTIALS = True
 #gmail  smtp
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
